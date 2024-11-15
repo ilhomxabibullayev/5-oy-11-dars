@@ -260,7 +260,7 @@ body {
     max-width: 1240px;
     gap: 0px;
     opacity: 0px;
-    border: 0.5px solid #8B8E99;
+    border: 1px solid #8b8e993f;
     display: block;
     margin-bottom: 30px;
 }
