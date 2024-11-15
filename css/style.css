@@ -200,13 +200,11 @@ body {
 }
 
 .hero__image {
-    transform: translateY(180px);
-    margin-left: 13px;
+    transform: translate(10px, 190px);
 }
 
 .hero__image2 {
-    transform: translateY(180px);
-    margin-left: 1100px;
+    transform: translate(1115px, 190px);
 }
 
 .footer {
