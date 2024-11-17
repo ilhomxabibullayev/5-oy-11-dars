@@ -4,137 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container header__container">
-            <div class="header__content2">
-                <img src="./image/logo.svg" alt="">
-                <button class="header__btn"><img src="./image/icon.svg" alt="">Katalog</button>
-                <div class="header__input">
-                    <input class="header__title-input" type="text" placeholder="Mahsulotlar va turkumlar izlash">
-                    <img class="header__image" src="./image/icon2.svg" alt="">
-                </div>
-                <button class="header__btn"><img src="./image/icon3.svg" alt="">Kirish</button>
-                <button class="header__btn"><img src="./image/icon4.svg" alt="">Saralangan</button>
-                <button class="header__btn"><img src="./image/icon5.svg" alt="">Savat</button>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./image/image.svg" alt="">
             </div>
-            <div class="header__content3">
-                <nav class="header__nav">
-                    <h1 class="header__title"><img src="./image/iamge.svg" alt="">Muddatli to'lov</h1>
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a class="header__link" href="#">Elektronika</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Maishiy texnika</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Kiyim</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Poyabzallar</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Aksessuarlar</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Goʻzallik va parvarish</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Salomatlik</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Uy-roʻzgʻor buyumlari</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#">Qurilish va taʼmirlash</a>
-                        </li>
-                    </ul>
-                    <button class="header__btn3">Yana <img src="./image/image2.svg" alt=""></button>
-                </nav>
+            <div class="swiper-slide">
+                <img src="./image//image2.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./image//image3.svg" alt="">
+            </div>
+            ...
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <section class="products">
+        <div class="container">
+            <h2>Products</h2>
+            <div class="products__wrapper">
+                
             </div>
         </div>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="container hero__container">
-                <button class="hero__btn"><img class="hero__image" src="./image/slider.svg" alt=""></button>
-                <button class="hero__btn"><img class="hero__image2" src="./image/slider2.svg" alt=""></button>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer__content">
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <h2 class="footer__title">Biz haqimizda</h2>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">Topshirish punktlari</a>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">Vakansiyalar</a>
-                    </li>
-                </ul>
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <h2 class="footer__title">Foydalanuvchilarga</h2>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">Biz bilan bogʻlanish</a>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">Savol-Javob</a>
-                    </li>
-                </ul>
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <h2 class="footer__title">Tadbirkorlarga</h2>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">Uzumda soting</a>
-                    </li>
-                    <li class="footer__item">
-                        <a class="footer__link" href="#">Sotuvchi kabinetiga kirish</a>
-                    </li>
-                </ul>
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <h2 class="footer__title">Ilovani yuklab olish</h2>
-                    </li>
-                    <div class="footer__image">
-                        <img src="./image/appstore.svg" alt="">
-                        <img src="./image/googleplay.svg" alt="">
-                    </div>
-                    <li class="footer__item">
-                        <h2 class="footer__title">Uzum ijtimoiy tarmoqlarda</h2>
-                    </li>
-                    <div class="footer__image">
-                        <img src="./image/instagram.svg" alt="">
-                        <img src="./image/telegram.svg" alt="">
-                        <img src="./image/youtube.svg" alt="">
-                        <img src="./image/facebook.svg" alt="">
-                    </div>
-                </ul>
-            </div>
-            <span class="footer__span"></span>
-            <div class="footer__content">
-                <div class="footer__desc">
-                    <h2 class="footer__sub-title">Maxfiylik kelishuvi</h2>
-                    <h2 class="footer__sub-title">Foydalanuvchi kelishuvi</h2>
-                </div>
-                <p class="footer__text">«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
-            </div>
-        </div>
-    </footer>
-    <script src="./js/app.js"></script>
+    </section>
+    <script src="./js/swiper.js" type="module"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>
